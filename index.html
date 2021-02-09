@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <br>
+        <br>
+        <form>
+            <label>Base Currency:</label>
+            <select class="options" id="dropdown" onchange=run()>
+                <opotion >Select</opotion>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="JPY">JPY</option>
+                <option value="GBP">GBP</option>
+                <option value="AUD">AUD</option>
+                <option value="INR">INR</option>
+
+
+            </select>
+            
+        </form>
+        <br>
+        <br>
+        <dl>
+            <dt>USD:</dt>
+            <dd id="usd1"></dd>
+            <br>
+            <dt>EUR:</dt>
+            <dd id="eur1"></dd>
+            <br>
+            <dt>JPY:</dt>
+            <dd id="jpy1"></dd>
+            <br>
+            <dt>GBP:</dt>
+            <dd id="gbp1"></dd>
+            <br>
+            <dt>AUD:</dt>
+            <dd id="aud1"></dd>
+            <br>
+            <dt>INR:</dt>
+            <dd id="inr1"></dd>
+        </dl>
+        
+    </div>
+    
+</body>
+</html>
